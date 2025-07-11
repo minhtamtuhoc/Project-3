@@ -1,6 +1,9 @@
 * {
   box-sizing: border-box;
 }
+:root {
+  --header-bg: #10375c;
+}
 html {
   font-size: 62.5%;
 }
@@ -8,4 +11,81 @@ body {
   font-size: 1.6rem;
   font-family: "Sora", sans-serif;
 }
-/* =========================================================== */
+/* ===============================Common===================== */
+.container {
+  width: 1170px;
+  margin: 0 auto;
+  max-width: calc(100% - 48px);
+}
+a {
+  text-decoration: none;
+}
+.btn {
+  display: inline-block;
+  min-width: 205px;
+  line-height: 60px;
+  border-radius: 30px;
+  background: #2e80ce;
+  color: #fff;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.66; /* 166.667% */
+}
+.btn:hover {
+  opacity: 0.9;
+}
+/* ===============================Header============================ */
+.header {
+  background: var(--header-bg);
+  min-height: 100vh;
+  padding-top: 30px;
+}
+.header-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar__list {
+  display: flex;
+}
+.action__login,
+.navbar__link {
+  padding: 8px 21px;
+  color: #c9d2da;
+  font-size: 1.6rem;
+  font-weight: 300;
+  line-height: 2.8rem;
+}
+.navbar__link:hover,
+.navbar__link--active {
+  color: #fff;
+  text-shadow: 1px 0 0 currentColor;
+}
+.navbar__link--active::before {
+  width: 6px;
+  height: 6px;
+  content: "";
+  background: #fff;
+  display: inline-block;
+  border-radius: 50%;
+  position: relative;
+  right: 8px;
+  top: -3px;
+}
+.action__login {
+  margin-right: 7px;
+}
+.action__signup {
+  padding: 8px 20px;
+  min-width: 104px;
+  line-height: 44px;
+  border-radius: 22px;
+  background: #2e80ce;
+  color: #fff;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.75; /* 175% */
+}
