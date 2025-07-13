@@ -301,7 +301,6 @@ a {
 .about {
   padding: 170px 0 291px;
   background: #fff;
-  background: red;
 }
 .about__img--large {
   width: 512px;
@@ -354,4 +353,39 @@ a {
   font-size: 1.8rem;
   font-weight: 400;
   line-height: 1.66; /* 166.667% */
+}
+/* ========================install===================== */
+.install__inner {
+  margin: 180px 0 85px;
+  position: relative;
+  padding: 0 70px;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  height: 417px;
+  background: #2e80ce;
+}
+.install__img {
+  width: 284px;
+  height: 522px;
+  position: absolute;
+  bottom: 0;
+}
+.install__content {
+  width: 586px;
+}
+.install__heading {
+  width: 489px;
+  color: #fff;
+  margin-bottom: 18px;
+}
+.install__desc {
+  width: 586px;
+  color: #fff;
+  margin-bottom: 38px;
+}
+.install__row {
+  display: flex;
+  column-gap: 28px;
+  align-items: center;
 }
