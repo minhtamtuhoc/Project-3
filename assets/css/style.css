@@ -389,3 +389,111 @@ a {
   column-gap: 28px;
   align-items: center;
 }
+/* ================================Blog================================== */
+.blog__content {
+  padding: 85px 0 85px;
+  display: flex;
+  justify-content: space-between;
+}
+.blog__left {
+  margin-top: 68px;
+  margin-right: 130px;
+}
+.blog__heading {
+  width: 470px;
+  margin-bottom: 28px;
+}
+.blog__link {
+  color: #10375c;
+  font-family: Inter;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.55; /* 155.556% */
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-skip-ink: none;
+  text-decoration-thickness: auto;
+  text-underline-offset: auto;
+  text-underline-position: from-font;
+}
+.blog__right {
+  display: flex;
+  column-gap: 30px;
+}
+.blog__content--1 {
+  width: 270px;
+  height: 375px;
+  border-radius: 12px;
+  border: 1px solid #e8ebee;
+  background: #fff;
+}
+.blog__title {
+  margin-left: 22px;
+  margin-top: 18px;
+  width: 224px;
+  color: #10375c;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.62; /* 162.5% */
+}
+.blog__desc {
+  margin-left: 22px;
+  margin-top: 10px;
+  width: 226px;
+  color: #575f66;
+  font-size: 1.4rem;
+  font-weight: 300;
+  line-height: 1.71; /* 171.429% */
+}
+.blog__more:hover {
+  color: #2e80ce;
+}
+.blog__more {
+  margin-left: 22px;
+  display: inline-block;
+  margin-top: 12px;
+  color: #10375c;
+  font-size: 1.4rem;
+  font-weight: 400;
+  cursor: pointer;
+}
+/* ===========================Appointment======================= */
+.appointment {
+  margin: 85px 0;
+}
+.appoint__content {
+  padding: 100px 178px;
+  text-align: center;
+  background: #f6fbff;
+}
+.appoint-title {
+  color: #10375c;
+  text-align: center;
+  font-size: 5rem;
+  font-weight: 600;
+  line-height: 1.2; /* 120% */
+  letter-spacing: -1px;
+}
+.appoint-title::after {
+  /* Căn giữa */
+  margin: 18px auto 0;
+  content: "";
+  display: block;
+  width: 136px;
+  height: 2px;
+  background: #2e80ce;
+}
+.appoint-desc {
+  margin: 18px auto 0;
+  width: 617px;
+  color: #575f66;
+  /* text-align: center; */
+  font-size: 1.6rem;
+  font-weight: 300;
+  line-height: 1.75; /* 175% */
+}
+.appoint-btn {
+  display: inline-block;
+  padding: 15px 40px 41px;
+}
